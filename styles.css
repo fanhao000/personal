@@ -1,77 +1,56 @@
-*{
-	margin:  0;
-	padding: 0;
-	font-family: 'Montserrat', sans-serif;
-	box-sizing: border-box;
+body {
+	background: #f5f5ef;
+	font-family: Hahmlet;
 }
-body{
-	background: url(Suit.jpg) no-repeat;
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
+
+h1 {
+	font-size: 45px;
+	text-align: center;
+	color:  #1f2839;	
 }
-header{
-	width: 100%;
-	height: 75px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 30px 5%;
-	background: rgba(0, 0, 0, 0.2);
-}
-.logo{
+
+h2 {
 	font-size: 30px;
-	font-weight: bold;
-	color: #fff;
-	letter-spacing: 1.5px;
-	cursor: text;
+	text-align: center;
+	color: #1f2839;
 }
-.texts{
-	font-size: 50px;
-	font-weight: bold;
-	color: #fff;
-	letter-spacing: 1px;
+
+img {
+	border-radius:  8px;
 	display: block;
-	margin: 10px;
-	padding-top: 20%;
-	padding-left: 2%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
 
 }
-.texts span{
-	font-size: 50px;
-	font-weight: bold;
-	color: #fff;
-	letter-spacing: 1px;
-	display: block;
-	float: right;
-	width: 50%;
-	margin-left: 10px;
-	padding-left: 10%;
+
+button {
+	background-color: lightgray;
+	border: none;
+	color: black;
+	padding: 16px 55px;
 	text-align: center;
-}
-nav li{
-	display: inline-block;
-	list-style: none;
-	padding: 0px 20px;
-}
-a,button{
-	font-size: 16px;
-	font-weight: 500;
-	color: #fff;
-	text-decoration: none;
+	margin: 40px auto;
+	display: block;
 	cursor: pointer;
+	border-radius: 10px;
+	font-size: 36px;
 }
-button{
-	background: rgba(0, 0, 0, 0.2);
-	border: 2px solid #fd5e53;
-	border-radius: 50px;
-	padding: 9px 25px;
+
+img {
+	border-radius:  8px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
 }
-nav li a:hover{
-	color: #fd5e53;
-	transition: all 0.4s ease;
-}
-button:hover{
-	background-color: #fd5e53;
-	transition: all 0.4s ease 0s;
-}
+
+
+
+
+
+
+
+
+
+
